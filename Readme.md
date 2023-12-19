@@ -7,7 +7,7 @@ It'll display a notification once the timer gets completed and app is in backgro
 
 Please have a look at the demonstration in below.
 
-![assignment-demo](https://github.com/hirenrafaliya/MNT-Assignment/blob/develop/Assignment%20-%20Demo.mp4)
+![assignment-demo](https://github.com/hirenrafaliya/MNT-Assignment/blob/master/assignment-demo.mp4)
 
 ----
 
