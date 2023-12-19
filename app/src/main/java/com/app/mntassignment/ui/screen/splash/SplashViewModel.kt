@@ -15,7 +15,7 @@ class SplashViewModel: ViewModel() {
 
     fun load() = viewModelScope.launch {
         _uiState.update { it.copy(isLoading = true) }
-        delay(2 * 1000)
+        delay(3 * 1000)
         _uiState.update { it.copy(isLoading = false, isCompleted = true) }
     }
 }

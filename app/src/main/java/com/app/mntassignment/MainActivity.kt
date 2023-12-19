@@ -10,13 +10,16 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.app.mntassignment.ui.navigation.SetupNavGraph
 import com.app.mntassignment.ui.theme.MNTAssignmentTheme
+import org.koin.compose.KoinContext
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MNTAssignmentTheme {
-                SetupNavGraph()
+            KoinContext {
+                MNTAssignmentTheme {
+                    SetupNavGraph()
+                }
             }
         }
     }
