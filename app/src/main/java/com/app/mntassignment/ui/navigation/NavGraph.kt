@@ -8,6 +8,7 @@ import androidx.navigation.compose.rememberNavController
 import com.app.mntassignment.ui.screen.countdown.CountDownScreen
 import com.app.mntassignment.ui.screen.splash.SplashScreen
 
+// Controls the overall navigation of the app
 @Composable
 fun SetupNavGraph(navController: NavHostController = rememberNavController()) {
 

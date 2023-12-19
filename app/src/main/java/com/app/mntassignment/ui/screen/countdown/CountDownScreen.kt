@@ -41,8 +41,8 @@ fun CountDownScreen() {
     val countDownViewModel: CountDownViewModel = koinViewModel()
     val uiState by countDownViewModel.uiState.collectAsStateWithLifecycle()
 
+    // To observe whenever app goes in background/foreground
     val lifecycleOwner: LifecycleOwner = LocalLifecycleOwner.current
-
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             when (event) {

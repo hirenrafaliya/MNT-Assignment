@@ -13,6 +13,7 @@ class SplashViewModel: ViewModel() {
     private val _uiState = MutableStateFlow(SplashUiState())
     val uiState = _uiState.asStateFlow()
 
+    // Just a static 3 Sec delay
     fun load() = viewModelScope.launch {
         _uiState.update { it.copy(isLoading = true) }
         delay(3 * 1000)

@@ -11,7 +11,8 @@ class App: Application() {
     override fun onCreate() {
         super.onCreate()
 
-        startKoin{
+        // Preload Koin modules to provide the required dependencies
+        startKoin {
             androidLogger()
             androidContext(this@App)
             modules(appModule)

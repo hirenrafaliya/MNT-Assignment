@@ -18,6 +18,7 @@ class CountDownViewModel() : ViewModel() {
 
     private lateinit var timer: CountDownTimer
 
+    // Start/Resume the timer
     fun start(context: Context) = viewModelScope.launch {
         _uiState.update { it.copy(isRunning = true, isPaused = false) }
         timer = object : CountDownTimer(uiState.value.timer, 1) {
