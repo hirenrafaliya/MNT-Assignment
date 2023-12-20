@@ -7,7 +7,7 @@ It'll display a notification once the timer gets completed and app is in backgro
 
 Please have a look at the demonstration in below.
 
-![assignment-demo](https://github.com/hirenrafaliya/MNT-Assignment/blob/master/assignment-demo.mp4)
+![assignment-demo](https://firebasestorage.googleapis.com/v0/b/android-essentials-2d9a4.appspot.com/o/assignment-demo.mp4?alt=media&token=3d3d9f3b-88cd-4db0-a68d-8a09dfbe1043)
 
 ----
 
